@@ -2,16 +2,12 @@ package com.example.myapplication.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-// 🌸 Pastel Flower Garden Palette
-
 val CherryBlossom = Color(0xFFF8BBD0)
 val TulipPink = Color(0xFFF48FB1)
 val Lavender = Color(0xFFE1BEE7)
 val Peach = Color(0xFFFFE0B2)
 val Cream = Color(0xFFFFF8E7)
 val Mint = Color(0xFFC8E6C9)
-
-// ---------- Light Theme ----------
 
 val LightPrimary = TulipPink
 val LightOnPrimary = Color.White
@@ -26,8 +22,6 @@ val LightOnSurface = Color(0xFF4A3A42)
 
 val LightOnSurfaceVariant = Color(0xFF75616C)
 
-
-// ---------- Dark Theme ----------
 
 val DarkPrimary = CherryBlossom
 
