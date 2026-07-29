@@ -5,6 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.myapplication"
+    // Fixed: Standardized compileSdk syntax
     compileSdk = 37
 
     defaultConfig {
@@ -36,6 +37,7 @@ android {
 }
 
 dependencies {
+    // Relying on the Version Catalog (libs.versions.toml) for Compose BOM
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.material3)
@@ -45,8 +47,10 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
 
+    // Icon pack needed for the UI Mockup (Region A & F)
     implementation("androidx.compose.material:material-icons-extended")
 
+    // Testing
     testImplementation(libs.junit)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
