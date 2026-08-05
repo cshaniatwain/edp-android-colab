@@ -124,7 +124,7 @@ fun GroceryListApp() {
         }
 
         Spacer(modifier = Modifier.height(20.dp))
-
+        
 
         Card(
             colors = CardDefaults.cardColors(
