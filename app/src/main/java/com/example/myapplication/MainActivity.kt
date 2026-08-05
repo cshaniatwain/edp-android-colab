@@ -67,9 +67,6 @@ fun GroceryListApp() {
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        //========================
-        // INPUT CARD
-        //========================
 
         Card(
             shape = RoundedCornerShape(22.dp),
@@ -128,9 +125,6 @@ fun GroceryListApp() {
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        //========================
-        // TOTAL ITEMS CARD
-        //========================
 
         Card(
             colors = CardDefaults.cardColors(
