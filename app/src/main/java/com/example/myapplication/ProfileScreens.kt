@@ -130,7 +130,6 @@ fun ProfileForm(
             )
 
 
-            // FULL NAME
             ProfileTextField(
                 value = state.name,
                 onValueChange = {
@@ -145,7 +144,6 @@ fun ProfileForm(
             )
 
 
-            // EMAIL
             ProfileTextField(
                 value = state.email,
                 onValueChange = {
@@ -160,7 +158,6 @@ fun ProfileForm(
             )
 
 
-            // CONTACT
             ProfileTextField(
                 value = state.contactNumber,
                 onValueChange = {
@@ -173,9 +170,7 @@ fun ProfileForm(
             Spacer(
                 modifier = Modifier.height(12.dp)
             )
-
-
-            // ADDRESS
+            
             ProfileTextField(
                 value = state.address,
                 onValueChange = {
@@ -190,7 +185,6 @@ fun ProfileForm(
             )
 
 
-            // USERNAME
             ProfileTextField(
                 value = state.username,
                 onValueChange = {
@@ -489,7 +483,6 @@ fun ProfilePreview(
                 modifier = Modifier.padding(22.dp)
             ) {
 
-                // PROFILE ICON
 
                 Box(
                     modifier = Modifier
