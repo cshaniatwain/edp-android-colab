@@ -1,0 +1,7 @@
+- [ ] Fix dependency management in `libs.versions.toml`
+- [ ] Align root `build.gradle.kts` with version catalog
+- [ ] Refactor `app/build.gradle.kts` to use version catalog aliases
+- [ ] Fix lint warnings in `MainActivity.kt`
+- [ ] Fix lint warnings in `Screens.kt`
+- [ ] Fix lint warnings in `Routes.kt`
+- [ ] Run Gradle Sync and verify build

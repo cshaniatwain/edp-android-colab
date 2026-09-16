@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.fieldkit
 
 import org.junit.Test
 

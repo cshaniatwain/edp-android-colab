@@ -1,0 +1,4 @@
+- `[x]` Remove redundant route declarations from `MainActivity.kt`
+- `[x]` Remove redundant screen composables from `MainActivity.kt`
+- `[x]` Clean up unused imports in `MainActivity.kt`
+- `[ ]` Verify build

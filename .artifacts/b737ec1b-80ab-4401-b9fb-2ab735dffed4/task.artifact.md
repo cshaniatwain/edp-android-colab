@@ -1,0 +1,4 @@
+- `[x]` Remove legacy Kotlin plugin from top-level `build.gradle.kts`
+- `[x]` Remove legacy Kotlin plugin and `kotlinOptions` from `app/build.gradle.kts`
+- `[x]` Remove `kotlin-android` from `libs.versions.toml`
+- `[/]` Sync and verify project compilation
